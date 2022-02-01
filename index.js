@@ -27,7 +27,7 @@ for (let i = 0; i < bool.length; i += 1) {
   } else fls += 1;
 }
 
-tr > fls ? console.log(tr) : console.log(fls);
+tr > fls ? console.log("True:", tr) : console.log("False:", fls);
 
 // if (tr > fls) {
 //   console.log(tr);
