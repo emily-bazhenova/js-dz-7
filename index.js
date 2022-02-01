@@ -75,24 +75,19 @@ let result;
 switch (operator) {
   case "+":
     result = num1 + num2;
-    alert(`Результат вычисления ${num1} + ${num2} = ${result}`);
     break;
 
   case "-":
     result = num1 - num2;
-    alert(`Результат вычисления ${num1} - ${num2} = ${result}`);
     break;
 
   case "/":
     result = num1 / num2;
-    alert(`Результат вычисления ${num1} : ${num2} = ${result}`);
     break;
 
   case "*":
     result = num1 * num2;
-    alert(`Результат вычисления ${num1} * ${num2} = ${result}`);
     break;
-
-  default:
-    alert("Введите правильное значение:");
 }
+
+alert(`Результат вычисления: ${num1} ${operator} ${num2} = ${result}`);
